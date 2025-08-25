@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // Basic Options
+    "target": "ESNext",
+    "module": "NodeNext",
+    "lib": ["ESNext"],
+    "rootDir": "./",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
+    // Module Resolution Options
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    // Emit Options
+    "declaration": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+
+    // Experimental Options
+    "experimentalDecorators": true,
+
+    // Additional Checks
+    "skipLibCheck": true,
+    "isolatedModules": true,
+
+    // Strict Type-Checking Options
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
